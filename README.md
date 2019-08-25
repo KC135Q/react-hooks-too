@@ -33,7 +33,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - `cd react-hooks`
   - `git init`
   - `npm run start`
-- **Mission Alpha**
+- **Operation Alpha**
   - Instructions: Add search functionality in a header component that allows the user to enter a search term, click on a search button and that search term is shown in an alert.
   - **_BONUS:_** Replace the App.js <p> code `<p>Edit <code>src/App.js</code> and save to reload.</p>` with a paragraph showing what was searched for such as `<p>Let the search for ${searchTerm} begin!</p>`
 - **Add a Header component**
@@ -41,8 +41,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - Check functioning
   - Make it contain a search input
   - [GitHub Plan](https://github.com/dijatek/react-hooks/tree/dk-01-plan)
-- **Mission Bravo**
-  - Instructions: Complete the BONUS from step Mission Alpha
+- **Operation Bravo**
+  - Instructions: Complete the BONUS from step Operation Alpha
   - **_BONUS:_** Track the last search term between browser sessions.
 - **Lift State**
   - Start with the onChange
@@ -51,7 +51,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - handleChange (onChange) is a naked pass throughout
   - handleSearch (onClick) is an anonymous callpack prop in the controlling component
   - [GitHub Lift State](https://github.com/dijatek/react-hooks/tree/dk-02-lift-search)
-- **Mission Charlie**
+- **Operation Charlie**
   - Instructions: Implement useEffect and react-cookies npm to track the most recent search term between user sessions.
 - **Use Effect**
   - Saving last search in a cookie
@@ -62,6 +62,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - setLastSearch after in the on click handler
   - How else could this be used? UserId? Check out the `Tips for Using Effects` reference
   - [GitHub Use Effect](https://github.com/dijatek/react-hooks/tree/dk-03-effect)
+- **Operation Delta**
+  - Instructions
+- **Context API**
+  -
+  - [GitHub Context](https://github.com/dijatek/react-hooks/tree/dk-04-context)
 
 ## Reference
 
