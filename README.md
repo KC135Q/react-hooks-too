@@ -21,7 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - onChange=(() => {setName(this.event.value)})
   - useEffect
   - apiContext
-- Build your own Hook (file example)
+- Build your own Hook [Form example?](https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms)
 
 ## Instruction
 
@@ -63,9 +63,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - How else could this be used? UserId? Check out the `Tips for Using Effects` reference
   - [GitHub Use Effect](https://github.com/dijatek/react-hooks/tree/dk-03-effect)
 - **Operation Delta**
-  - Instructions
+  - Instructions: Using the `Context API Tutorial` in the reference section, move your last searched paragraph into it's own component. Use the api context to access the last searched term, not just sending it in as a prop.
 - **Context API**
-  -
+  - Follow the Context API Tutorial
+  - When may this be useful (Just like `if` versus `switch`)
   - [GitHub Context](https://github.com/dijatek/react-hooks/tree/dk-04-context)
 
 ## Reference
@@ -73,4 +74,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [React Hooks Lifting State](https://www.robinwieruch.de/react-lift-state)
 - [React Cookies](https://www.npmjs.com/package/react-cookies)
 - [Tips for Using Effects](https://reactjs.org/docs/hooks-effect.html)
--
+- [Context API Tutorial](https://www.taniarascia.com/using-context-api-in-react/)

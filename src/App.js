@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import cookie from "react-cookies";
+import { SearchProvider } from "./context/SearchContext";
+import P from "./components/P";
 
 function App() {
   const [search, setSearch] = useState("42");
@@ -31,7 +33,9 @@ function App() {
           handleSearch={() => handleSearch()}
         />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Most recent search was '{lastSearch}'</p>
+        <SearchProvider value={lastSearch}>
+          <P />
+        </SearchProvider>
         <a
           className="App-link"
           href="https://reactjs.org"
