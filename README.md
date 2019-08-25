@@ -16,13 +16,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - Why use hooks?
     > 'They let you use state and other React features without writing a class.'
   - Does it break your code?
-- useState
-  - onChange=(() => {setName(this.event.value)})
-- useEffect and other built-in hooks
-- Build your own
+- built-in hooks:
+  - useState
+    - onChange=(() => {setName(this.event.value)})
+  - useEffect
+  - apiContext
+- Build your own Hook (file example)
 
-## Steps
+## Instruction
 
+- **Set up separate monitor to reference repo**
 - **Create the application**
   - `create-react-app react-hooks`
   - `cd react-hooks`
@@ -30,9 +33,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - `npm run start`
 - **Add a Header component**
   - ./components/Header
-    - Check functioning
-    - Make it an search input
-  - ./
+  - Check functioning
+  - Make it contain a search input
+  - [GitHub Plan Branch](https://github.com/dijatek/react-hooks/tree/dk-01-plan)
+- **Lift State**
+  - Start with the onChange
+  - Move to the onClick
+  - Show result in another part of App.js (ex; Learn React using {search})
+  - handleChange (onChange) is a naked pass throughout
+  - handleSearch (onClick) is an anonymous callpack prop in the controlling component
+  - [GitHub Lift State Branch]()
 
 ## Reference
 

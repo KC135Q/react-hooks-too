@@ -1,18 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Header() {
-  const [search, setSearch] = useState("42");
+// Prop destructuring
+export default function Header({
+  children,
+  search,
+  handleChange,
+  handleSearch
+}) {
   return (
     <div>
       Search:
-      <input
-        type="text"
-        value={search}
-        onChange={event => setSearch(event.target.value)}
-      />
-      <button onClick={() => alert(`Let the search for ${search} begin!`)}>
-        Go
-      </button>
+      <input type="text" value={search} onChange={handleChange} />
+      <button onClick={handleSearch}>Go</button>
     </div>
   );
 }
