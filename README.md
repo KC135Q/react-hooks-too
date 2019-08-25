@@ -42,8 +42,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - Show result in another part of App.js (ex; Learn React using {search})
   - handleChange (onChange) is a naked pass throughout
   - handleSearch (onClick) is an anonymous callpack prop in the controlling component
-  - [GitHub Lift State Branch]()
+  - [GitHub Lift State Branch](https://github.com/dijatek/react-hooks/tree/dk-02-lift-search)
 
 ## Reference
 
-- [React Hooks Lifting State](https://codesandbox.io/s/z3431proxl?from-embed)
+- [React Hooks Lifting State](https://www.robinwieruch.de/react-lift-state)
